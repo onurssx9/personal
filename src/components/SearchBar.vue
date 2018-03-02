@@ -117,13 +117,14 @@ class Skill {
   width: 200px;
   text-align: center;
   padding: 10px;
-  border: none;
+  border: 1px #eeeeee solid;
+  border-radius: 5px;
   outline: none;
   transition: all .5s ease;
 }
 
 .search-container input:focus {
-  border-radius: 5px;
+  border-radius: 10px;
   background: #eeeeee;
 }
 
