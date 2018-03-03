@@ -40,7 +40,7 @@ export default {
         new Skill(
           'Unity 3D',
           '80%',
-          'https://www.gfxmag.com/wp-content/uploads/2016/07/unity-icon-vector-logo.png'
+          'https://www.academyclass.com/wp-content/uploads/2016/11/unity-logo-rgb-011.png'
         ),
         new Skill(
           'HTML5',
