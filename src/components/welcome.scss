@@ -1,0 +1,22 @@
+@import "../styles/theme.scss";
+
+:local #welcome {
+  flex: 1;
+
+  .column {
+    flex: 1;
+    flex-direction: column;
+    padding: 50px;
+
+    &.photo {
+      flex: 1;
+      background: url(../media/photos/gamejam.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+
+      a {
+        text-align: left;
+      }
+    }
+  }
+}
