@@ -15,7 +15,7 @@ export default class Welcome extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            @GlobalGameJam2018
+            @GlobalGameJam2017
           </a>
         </div>
       </div>

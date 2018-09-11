@@ -4,6 +4,7 @@ import Styles from "./navbar.scss";
 
 import picture from "../media/photos/profile.jpg";
 import Social from "./social.jsx";
+import NavItem from "./navItem.jsx";
 
 export default class Navbar extends Component {
   render() {
@@ -17,9 +18,9 @@ export default class Navbar extends Component {
           </div>
         </div>
         <div class={Styles.links}>
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/projects">Projects</Link>
+          <NavItem redirect="/">Home</NavItem>
+          <NavItem redirect="/about">About</NavItem>
+          <NavItem redirect="/projects">Projects</NavItem>
         </div>
         <Social />
       </div>
