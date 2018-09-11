@@ -17,7 +17,7 @@ export default class Navbar extends Component {
             </Link>
           </div>
         </div>
-        <div class={Styles.links}>
+        <div className={Styles.links}>
           <NavItem redirect="/">Home</NavItem>
           <NavItem redirect="/about">About</NavItem>
           <NavItem redirect="/projects">Projects</NavItem>

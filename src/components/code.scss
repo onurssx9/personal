@@ -1,0 +1,64 @@
+@import "../styles/theme.scss";
+:local .code {
+  height: fit-content;
+  align-items: center;
+  font-size: 14px;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+  }
+
+  .rowNumber {
+    color: $color-grey;
+    padding-right: 10px;
+    margin-right: 5px;
+    background: $background-light;
+    border-right: 1px $color-grey solid;
+    min-width: 30px;
+    justify-content: flex-end;
+  }
+
+  p {
+    margin-right: 10px;
+  }
+}
+
+.end {
+  margin: 0px !important;
+}
+
+.red {
+  color: $color-red;
+}
+
+.yellow {
+  color: $color-yellow;
+}
+
+.blue {
+  color: $color-blue;
+}
+
+.green {
+  color: $color-green;
+}
+
+.pink {
+  color: $color-pink;
+}
+
+.orange {
+  color: $color-orange;
+}
+
+.grey {
+  color: $color-grey;
+}
+
+.white {
+  color: $color-white;
+}
+
+.mavue {
+  color: $color-mavue;
+}

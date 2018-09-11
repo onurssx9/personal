@@ -1,0 +1,92 @@
+{
+  "title": "Javascript Developer",
+  "name": "Onur Sahin",
+  "surname": "Senturk",
+  "location": "Turkey",
+  "city": "Istanbul",
+  "email": "onursahinsenturk@gmail.com",
+  "phone": "+905313183887",
+  "birth": "06/12/1992",
+  "education": {
+    "bachelor": {
+      "university": "Yeditepe University",
+      "major": "Management Information Systems",
+      "gratuated": false
+    }
+  },
+  "jobs": [
+    {
+      "company": "Insider",
+      "title": "Javascript Developer",
+      "working": true
+    },
+    {
+      "company": "Brandeval",
+      "title": "Software Developer",
+      "working": false
+    }
+  ],
+  "skills": [
+    "React",
+    "Vue",
+    "Javascript",
+    "Node.js",
+    "HTML5",
+    "CSS3",
+    "Sass",
+    "jQuery",
+    "C#"
+  ],
+  "hobbies": [
+    "Storytelling",
+    "Fantasy Roleplaying Games",
+    "Video Games",
+    "Game Development",
+    "Ultimate Frisbee"
+  ],
+  "projects": [
+    {
+      "name": "Previously On Twitch",
+      "description": "Previously On Twitch is an compeletly automated Youtube Channel. Project is still in development process.",
+      "repo": "https://github.com/onurssx9/twitch-parser",
+      "url": "https://www.youtube.com/channel/UC8R29RWyyLAHeviHsWxGedQ"
+    },
+    {
+      "name": "Li-Fi (Global Gamejam 2018)",
+      "description": "Transmit your light signal to receiver through maze-like rooms. Obstacles have 4 types that makes light behave differently. ",
+      "repo": "N/A",
+      "url": "https://ataberkp.itch.io/li-fi"
+    },
+    {
+      "name": "Quest Generator",
+      "description": "A random quest generator application I started developing to understand node.js, express and socket.io while improving my javascript and jQuery skills.",
+      "repo": "https://github.com/onurssx9/quest-generator",
+      "url": "http://quest-generator.herokuapp.com/"
+    },
+    {
+      "name": "Aprilis",
+      "description": "Aprilis is a hub for Role-playing gamers where players can create new games and comment on others. This is a project I started developing to improve my skills and knowledge about web applications.",
+      "repo": "https://github.com/onurssx9/aprilis",
+      "url": "http://aprilis.herokuapp.com/"
+    },
+    {
+      "name": "Drunken Sailor (Global Gamejam 2017)",
+      "description": "A drunken sailor drifted to a mysterious island must find a way to build a raft and return back to his beloved one. This game was created during the Global Game Jam 2017's Bahçeşehir University Game Lab (BUG) segment. Due to time concerns and a small team composing of 4 passionate gamers, we decided to focus on the story telling aspects of the game rather than the mechanics.",
+      "repo": "N/A",
+      "url": "https://onursahinsenturk.itch.io/drunken-sailor"
+    },
+    {
+      "name": "Simply Football",
+      "description": "A simple football game developed in Unreal Engine 4.",
+      "repo": "N/A",
+      "url": "https://www.indiedb.com/games/simply-football"
+    },
+    {
+      "name": "Simply Football",
+      "description": "A simple football game developed in Unreal Engine 4.",
+      "repo": "N/A",
+      "url": "https://www.indiedb.com/games/simply-football"
+    }
+  ],
+  "languages": ["Turkish", "English"]
+}

@@ -1,13 +1,21 @@
 import React, { Component } from "react";
 import Styles from "./welcome.scss";
+import Editor from "./editor.jsx";
+import Data from "../data/onur.json";
 
 export default class Welcome extends Component {
+  state = {
+    information: Data
+  };
+
   render() {
+    const { information } = this.state;
     return (
       <div id={Styles.welcome}>
         <div className={Styles.column}>
-          <h1>Welcome!</h1>
-          <h2>This is my personal website.</h2>
+          <h1>{`${information.name} ${information.surname}`}</h1>
+          <h2>{information.title}</h2>
+          <Editor information={information} />
         </div>
         <div className={[Styles.column, Styles.photo].join(" ")}>
           <a
