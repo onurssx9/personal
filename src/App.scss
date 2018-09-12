@@ -1,7 +1,7 @@
 @import "./src/styles/theme.scss";
 
 * {
-  font-family: "Consolas", "Courier New", "monospace";
+  font-family: "monospace", "Consolas", "Courier New";
   color: $base-theme;
 
   &::-webkit-scrollbar {
