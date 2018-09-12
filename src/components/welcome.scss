@@ -8,11 +8,12 @@
     flex-direction: column;
     padding: 50px;
     white-space: pre-wrap;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 
     &.photo {
-      flex: 1;
-      background: url(../media/photos/gamejam.jpg);
+      flex: 2;
+      background: url(../media/photos/profile.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       transition: all 0.3s ease;

@@ -10,7 +10,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div id={Styles.navigation}>
-        <div className={Styles.container}>
+        <div className={`${Styles.container} rainbow`}>
           <div className={Styles.profile}>
             <Link to="/">
               <img alt="Onur Şahin Şentürk" src={picture} />
@@ -18,9 +18,15 @@ export default class Navbar extends Component {
           </div>
         </div>
         <div className={Styles.links}>
-          <NavItem redirect="/">Home</NavItem>
-          <NavItem redirect="/about">About</NavItem>
-          <NavItem redirect="/projects">Projects</NavItem>
+          <NavItem color="blue" redirect="/">
+            Home
+          </NavItem>
+          <NavItem color="green" redirect="/about">
+            About
+          </NavItem>
+          <NavItem color="red" redirect="/projects">
+            Projects
+          </NavItem>
         </div>
         <Social />
       </div>

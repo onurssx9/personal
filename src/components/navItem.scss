@@ -8,11 +8,20 @@
   transition: all 0.5s ease;
   cursor: pointer;
 
+  &.active {
+    background: $background-dark;
+  }
+
+  &:not(:last-child, :first-child) {
+    border-top: 1px $highlight-dark solid;
+    border-bottom: 1px $highlight-dark solid;
+  }
+
   &:hover {
     background: $background-dark;
 
     div {
-      color: $color-yellow;
+      color: inherit;
     }
   }
 
@@ -33,5 +42,23 @@
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 2px;
+  }
+}
+
+.green:hover {
+  div {
+    color: $color-green;
+  }
+}
+
+.blue:hover {
+  div {
+    color: $color-blue;
+  }
+}
+
+.red:hover {
+  div {
+    color: $color-red;
   }
 }

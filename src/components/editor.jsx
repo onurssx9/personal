@@ -7,8 +7,6 @@ export default class Editor extends Component {
     const { information } = this.props;
     const variables = formatCodes(information);
 
-    console.log(variables);
-
     return variables;
   }
 

@@ -5,6 +5,7 @@ import "./App.scss";
 import Navbar from "./components/navbar";
 import Welcome from "./components/welcome";
 import About from "./components/about";
+import Projects from "./components/projects";
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
             <Navbar />
             <Route path="/" component={Welcome} exact />
             <Route path="/about" component={About} />
+            <Route path="/projects" component={Projects} />
           </React.Fragment>
         </Router>
       </React.Fragment>
