@@ -44,7 +44,8 @@
     letter-spacing: 2px;
 
     @media screen and (max-height: 650px) {
-      font-size: 13px;
+      font-size: 10px;
+      transform: rotateZ(0deg);
     }
   }
 }
