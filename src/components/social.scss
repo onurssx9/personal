@@ -1,0 +1,45 @@
+@import "../styles/theme.scss";
+
+:local #social {
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: $background-dark;
+  position: relative;
+
+  @media screen and (max-height: 500px) {
+    display: none;
+  }
+
+  a {
+    margin: 5px;
+    transition: all 0.5s ease;
+
+    @media screen and (max-height: 768px) {
+      width: 35px !important;
+      height: 35px !important;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.social-svg-mask path {
+  fill: transparent;
+}
+
+.social-svg-icon path {
+  fill: $background-light;
+
+  &:hover {
+    fill: $base-theme;
+  }
+}
+
+svg:hover .social-svg-icon path {
+  fill: $color-orange;
+}
