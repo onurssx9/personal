@@ -1,0 +1,35 @@
+@import "../styles/theme.scss";
+
+:local #welcome {
+  flex: 1;
+  overflow-y: auto;
+
+  .column {
+    flex: 1;
+    flex-direction: column;
+    padding: 50px;
+    white-space: pre-wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    &.photo {
+      flex: 2;
+      background: url(../media/photos/gamejam.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      transition: all 0.3s ease;
+
+      @media screen and (max-width: 1280px) {
+        flex: 1;
+      }
+
+      @media screen and (max-width: 500px) {
+        display: none;
+      }
+
+      a {
+        text-align: left;
+      }
+    }
+  }
+}
