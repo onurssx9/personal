@@ -2,5 +2,45 @@
 
 :local #about {
   flex: 1;
-  flex-direction: column;
+  height: fit-content;
+  max-height: 100%;
+  padding: 50px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  overflow-y: auto;
+
+  .column {
+    flex: 1;
+
+    &:first-child {
+      flex-direction: column;
+    }
+
+    &:last-child {
+      flex-wrap: wrap;
+    }
+  }
+
+  .box {
+    flex: 1;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    text-align: center;
+    flex-basis: 25%;
+    color: white;
+    background: $background-light;
+    transition: all 0.5s ease;
+
+    &:hover {
+      background: $color-green;
+      border-radius: 4px;
+
+      &.hobby {
+        background: $color-pink;
+      }
+    }
+  }
 }

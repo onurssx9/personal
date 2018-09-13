@@ -25,7 +25,7 @@ export default class Project extends Component {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Repository
+              Repo
             </a>
           )}
         </div>
