@@ -1,91 +1,97 @@
 {
-  "title": "Javascript Developer",
-  "name": "Onur Sahin",
-  "surname": "Senturk",
-  "location": "Turkey",
-  "city": "Istanbul",
-  "email": "onursahinsenturk@gmail.com",
-  "phone": "+905313183887",
-  "birth": "06/12/1992",
-  "education": {
-    "bachelor": {
-      "university": "Yeditepe University",
-      "major": "Management Information Systems",
-      "gratuated": false
-    }
-  },
-  "jobs": [
-    {
-      "company": "Insider",
-      "title": "Javascript Developer",
-      "description": "Insider is a digital experience delivery platform for marketers. Accessible from a unified data engine, Insider enables marketers to leverage predictive segmentation and real-time personalization technologies to boost loyalty and digital growth. Insider is a technology company with offices in London, Moscow, Singapore, Dubai, Warsaw, Istanbul, Kuala Lumpur, Jakarta, Sydney, Seoul, Tokyo, Ho Chi Minh City and Bangkok. Insider was listed as one of the 100 Hottest Startups in 2016 by WIRED Magazine and won Red Herring Top 100 Europe in 2017. Helping world’s leading brands grow beyond the speed of customer expectations, Insider is trusted by over 300 businesses across various industries including Toyota, UNIQLO, Singapore Airlines, Media Markt, Lenovo, Ticketmaster, Newsweek, Air Arabia, New Balance, AVIS, BBVA, Fiat, Delivery Hero, Dominos, McDonalds, Avon and CNN",
-      "working": true
+    "title": "Javascript Developer",
+    "name": "Onur Sahin",
+    "surname": "Senturk",
+    "location": "Finland",
+    "city": "Helsinki",
+    "email": "onursahinsenturk@gmail.com",
+    "phone": "+3580504477669",
+    "birth": "06/12/1992",
+    "education": {
+        "bachelor": {
+            "university": "Yeditepe University",
+            "major": "Management Information Systems",
+            "gratuated": false
+        }
     },
-    {
-      "company": "Brandeval",
-      "title": "Software Developer",
-      "description": "Developing Softwares for the Embedded Windows Systems by using C#.",
-      "working": false
-    }
-  ],
-  "skills": [
-    "React",
-    "Vue",
-    "Javascript",
-    "Node",
-    "HTML5",
-    "CSS3",
-    "Sass",
-    "jQuery",
-    "C#",
-    "Unreal Engine",
-    "Unity"
-  ],
-  "hobbies": [
-    "Storytelling",
-    "Fantasy Roleplaying Games",
-    "Video Games",
-    "Game Development",
-    "Ultimate Frisbee",
-    "Development"
-  ],
-  "projects": [
-    {
-      "name": "Previously On Twitch",
-      "description": "Previously On Twitch is an compeletly automated Youtube Channel. Project is still in development process.",
-      "repo": "https://github.com/onurssx9/twitch-parser",
-      "url": "https://www.youtube.com/channel/UC8R29RWyyLAHeviHsWxGedQ"
-    },
-    {
-      "name": "Li-Fi (Global Gamejam 2018)",
-      "description": "Transmit your light signal to receiver through maze-like rooms. Obstacles have 4 types that makes light behave differently. ",
-      "repo": "N/A",
-      "url": "https://ataberkp.itch.io/li-fi"
-    },
-    {
-      "name": "Quest Generator",
-      "description": "A random quest generator application I started developing to understand node.js, express and socket.io while improving my javascript and jQuery skills.",
-      "repo": "https://github.com/onurssx9/quest-generator",
-      "url": "http://quest-generator.herokuapp.com/"
-    },
-    {
-      "name": "Aprilis",
-      "description": "Aprilis is a hub for Role-playing gamers where players can create new games and comment on others. This is a project I started developing to improve my skills and knowledge about web applications.",
-      "repo": "https://github.com/onurssx9/aprilis",
-      "url": "http://aprilis.herokuapp.com/"
-    },
-    {
-      "name": "Drunken Sailor (Global Gamejam 2017)",
-      "description": "A drunken sailor drifted to a mysterious island must find a way to build a raft and return back to his beloved one. This game was created during the Global Game Jam 2017's Bahçeşehir University Game Lab (BUG) segment. Due to time concerns and a small team composing of 4 passionate gamers, we decided to focus on the story telling aspects of the game rather than the mechanics.",
-      "repo": "N/A",
-      "url": "https://onursahinsenturk.itch.io/drunken-sailor"
-    },
-    {
-      "name": "Simply Football",
-      "description": "A simple football game developed in Unreal Engine 4.",
-      "repo": "N/A",
-      "url": "https://www.indiedb.com/games/simply-football"
-    }
-  ],
-  "languages": ["Turkish", "English"]
+    "jobs": [
+        {
+            "company": "Yousician",
+            "title": "Frontend Engineer",
+            "description": "Developing Internal Tools and Web Applications",
+            "working": false
+        },
+        {
+            "company": "Insider",
+            "title": "Javascript Developer",
+            "description": "Insider is a digital experience delivery platform for marketers. Accessible from a unified data engine, Insider enables marketers to leverage predictive segmentation and real-time personalization technologies to boost loyalty and digital growth. Insider is a technology company with offices in London, Moscow, Singapore, Dubai, Warsaw, Istanbul, Kuala Lumpur, Jakarta, Sydney, Seoul, Tokyo, Ho Chi Minh City and Bangkok. Insider was listed as one of the 100 Hottest Startups in 2016 by WIRED Magazine and won Red Herring Top 100 Europe in 2017. Helping world’s leading brands grow beyond the speed of customer expectations, Insider is trusted by over 300 businesses across various industries including Toyota, UNIQLO, Singapore Airlines, Media Markt, Lenovo, Ticketmaster, Newsweek, Air Arabia, New Balance, AVIS, BBVA, Fiat, Delivery Hero, Dominos, McDonalds, Avon and CNN",
+            "working": false
+        },
+        {
+            "company": "Brandeval",
+            "title": "Software Developer",
+            "description": "Developing Softwares for the Embedded Windows Systems by using C#.",
+            "working": false
+        }
+    ],
+    "skills": [
+        "React",
+        "Vue",
+        "Javascript",
+        "Node",
+        "HTML5",
+        "CSS3",
+        "Sass",
+        "jQuery",
+        "C#",
+        "Unreal Engine",
+        "Unity"
+    ],
+    "hobbies": [
+        "Storytelling",
+        "Fantasy Roleplaying Games",
+        "Video Games",
+        "Game Development",
+        "Ultimate Frisbee",
+        "Development"
+    ],
+    "projects": [
+        {
+            "name": "Previously On Twitch",
+            "description": "Previously On Twitch is an compeletly automated Youtube Channel. Project is still in development process.",
+            "repo": "https://github.com/onurssx9/twitch-parser",
+            "url": "https://www.youtube.com/channel/UC8R29RWyyLAHeviHsWxGedQ"
+        },
+        {
+            "name": "Li-Fi (Global Gamejam 2018)",
+            "description": "Transmit your light signal to receiver through maze-like rooms. Obstacles have 4 types that makes light behave differently. ",
+            "repo": "N/A",
+            "url": "https://ataberkp.itch.io/li-fi"
+        },
+        {
+            "name": "Quest Generator",
+            "description": "A random quest generator application I started developing to understand node.js, express and socket.io while improving my javascript and jQuery skills.",
+            "repo": "https://github.com/onurssx9/quest-generator",
+            "url": "http://quest-generator.herokuapp.com/"
+        },
+        {
+            "name": "Aprilis",
+            "description": "Aprilis is a hub for Role-playing gamers where players can create new games and comment on others. This is a project I started developing to improve my skills and knowledge about web applications.",
+            "repo": "https://github.com/onurssx9/aprilis",
+            "url": "http://aprilis.herokuapp.com/"
+        },
+        {
+            "name": "Drunken Sailor (Global Gamejam 2017)",
+            "description": "A drunken sailor drifted to a mysterious island must find a way to build a raft and return back to his beloved one. This game was created during the Global Game Jam 2017's Bahçeşehir University Game Lab (BUG) segment. Due to time concerns and a small team composing of 4 passionate gamers, we decided to focus on the story telling aspects of the game rather than the mechanics.",
+            "repo": "N/A",
+            "url": "https://onursahinsenturk.itch.io/drunken-sailor"
+        },
+        {
+            "name": "Simply Football",
+            "description": "A simple football game developed in Unreal Engine 4.",
+            "repo": "N/A",
+            "url": "https://www.indiedb.com/games/simply-football"
+        }
+    ],
+    "languages": ["Turkish", "English"]
 }
