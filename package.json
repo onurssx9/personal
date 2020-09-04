@@ -51,7 +51,7 @@
   },
   "devDependencies": {
     "fs-extra": "^3.0.1",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.13.1",
     "react-social-icons": "^3.0.0",
     "sass-loader": "^7.1.0",
     "webpack": "^4.17.2"
